@@ -11,16 +11,17 @@ Study on multiple factors affecting stroke rate
 ### Team members
  Xinyu Chen   Yanan Wen
 
-## Project process
-```m
-graph TD
-    A[Data-preprocessing] --> B(problem-posing)
-    B --> C{4-core-problems vs. stroke rate}
-    C --> D[glucose-levels]
-    C --> E[heart-disease]
-    C --> F[work-type-based-on-gender]
-    C --> G[age]
-```
+## Project fuction
+- relation-ship between stroke rate and factors,which includes:
+    - avg_glucose_level
+    - work-type + gender
+    - age
+- The interaction components include:
+    - sex selection
+    - age group selection
+    - avg_glucose_level select slider wiget
+    - hide graph button
+
 
 
 ### Project content
