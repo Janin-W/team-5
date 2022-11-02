@@ -47,7 +47,7 @@ ax.set_xlabel('Heart disease, Stroke')
 st.pyplot(fig)
 
 
-st.subheader('3.See the relationship between work type and stroke base on gender:')
+st.subheader('3.See the relationship between work type and stroke based on gender:')
 
 
 select = st.sidebar.selectbox('Please select gender', ('Female','Male','All'))
