@@ -1,6 +1,6 @@
 # Team 5's final project 
 
-###### cite
+
 
 >Health is an obligation to oneself and to society. - Franklin
 
