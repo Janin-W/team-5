@@ -11,8 +11,8 @@ Study on multiple factors affecting stroke rate
  Xinyu Chen   Yanan Wen
 
 ## Project process
-```
-flowchart TD
+```mermaid
+flowchart TD;
     A[Data-preprocessing] --> B(problem-posing);
     B --> C{4-core-problems vs. stroke rate};
     C -->|one| D[glucose-levels];
