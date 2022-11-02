@@ -12,13 +12,13 @@ Study on multiple factors affecting stroke rate
 
 ## Project process
 ```
-graph TD
-    A[Data-preprocessing] -->B(problem-posing)
-    B -->C{4-core-problems vs. stroke rate}
-    C -->|one| D[glucose-levels]
-    C -->|two| E[heart-disease]
-    C -->|three| F[work-type-based-on-gender]
-    C -->|four| G[age]
+flowchart TD
+    A[Data-preprocessing] --> B(problem-posing);
+    B --> C{4-core-problems vs. stroke rate};
+    C -->|one| D[glucose-levels];
+    C -->|two| E[heart-disease];
+    C -->|three| F[work-type-based-on-gender];
+    C -->|four| G[age];
 ```
 
 
