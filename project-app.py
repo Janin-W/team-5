@@ -30,20 +30,20 @@ st.pyplot(fig)
 
 st.subheader('2.See the relationship between heart disease and stroke:')
 fig, ax= plt.subplots()
-df_hyp_sum = df.groupby('hypertension').sum()
-df_hyp_count = df.groupby('hypertension').count()
-df_hyp_count['stroke_rate'] = df_hyp_sum['stroke'] / df_hyp_count['stroke']
+df_hd_sum = df.groupby('heart_disease').sum()
+df_hd_count = df.groupby('heart_disease').count()
+df_hd_count['stroke_rate'] = df_hd_sum['stroke'] / df_hd_count['stroke']
 
-df_hyp_count0 = df_hyp_count.copy()
-df_hyp_count1 = df_hyp_count.copy()
-df_hyp_count0['stroke_rate'] = 1 - df_hyp_count0['stroke_rate']
-df_hyp_count0['hyp'] = [str((i, 0))for i in df_hyp_count.index.values]
-df_hyp_count1['hyp'] = [str((i, 1))for i in df_hyp_count.index.values]
-df_hyp_count3 = pd.concat((df_hyp_count0, df_hyp_count1), axis=0).sort_values('hyp')
+df_hd_count0 = df_hd_count.copy()
+df_hd_count1 = df_hd_count.copy()
+df_hd_count0['stroke_rate'] = 1 - df_hd_count0['stroke_rate']
+df_hd_count0['hd'] = [str((i, 0))for i in df_hd_count.index.values]
+df_hd_count1['hd'] = [str((i, 1))for i in df_hd_count.index.values]
+df_hd_count3 = pd.concat((df_hd_count0, df_hd_count1), axis=0).sort_values('hd')
 
-ax = df_hyp_count3.plot.bar( x= 'hyp', y = 'stroke_rate',ax = ax)
+ax = df_hd_count3.plot.bar( x= 'hd', y = 'stroke_rate')
 ax.set_xticks(range(6))
-ax.set_xlabel('Hypertension, Stroke')
+ax.set_xlabel('Heart disease, Stroke')
 st.pyplot(fig)
 
 
