@@ -11,7 +11,7 @@ Study on multiple factors affecting stroke rate
  Xinyu Chen   Yanan Wen
 
 ## Project process
-
+```
 graph TD
     A[Data-preprocessing] --> B(problem-posing)
     B --> C{4-core-problems vs. stroke rate}
@@ -19,7 +19,7 @@ graph TD
     C -->|two| E[heart-disease]
     C -->|three| F[work-type-based-on-gender]
     C -->|four| G[age]
-
+```
 
 
 ### Project content
