@@ -1,5 +1,9 @@
 # Team 5's final project 
 
+###### cite
+
+>Health is an obligation to oneself and to society. - Franklin
+
 ## Topic
 Study on multiple factors affecting stroke rate 
 ![stroke picture](https://th.bing.com/th/id/OIP.gzXrnR1jOhxjwtTAfxzKZAHaEK?pid=ImgDet&rs=1)
