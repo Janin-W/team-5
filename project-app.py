@@ -41,8 +41,8 @@ df_hd_count0['hd'] = [str((i, 0))for i in df_hd_count.index.values]
 df_hd_count1['hd'] = [str((i, 1))for i in df_hd_count.index.values]
 df_hd_count3 = pd.concat((df_hd_count0, df_hd_count1), axis=0).sort_values('hd')
 
-ax = df_hd_count3.plot.bar( x= 'hd', y = 'stroke_rate')
-ax.set_xticks(range(6))
+ax = df_hd_count3.plot.bar( x= 'hd', y = 'stroke_rate', ax = ax)
+ax.set_xticks(range(4))
 ax.set_xlabel('Heart disease, Stroke')
 st.pyplot(fig)
 
