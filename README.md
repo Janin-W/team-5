@@ -1,7 +1,8 @@
 # Team 5's final project 
 
 ## Topic
-Study on multiple factors affecting stroke rate (https://th.bing.com/th/id/R.a344f0f348c53df32ef64c5f129379fb?rik=CU49%2fDEpfTj7iA&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20180725%2f8fae540dc1d64624bef1a7842972c3ae.jpeg&ehk=gsapnLqA4Zaol9vE929caiVwISzSG2kUysPDlUpnXgQ%3d&risl=&pid=ImgRaw&r=0)
+Study on multiple factors affecting stroke rate 
+![stroke picture](https://th.bing.com/th/id/R.a344f0f348c53df32ef64c5f129379fb?rik=CU49%2fDEpfTj7iA&riu=http%3a%2f%2f5b0988e595225.cdn.sohucs.com%2fimages%2f20180725%2f8fae540dc1d64624bef1a7842972c3ae.jpeg&ehk=gsapnLqA4Zaol9vE929caiVwISzSG2kUysPDlUpnXgQ%3d&risl=&pid=ImgRaw&r=0)
 
 ## Project
  This is the website for our final project
