@@ -9,7 +9,7 @@ Study on multiple factors affecting stroke rate
  https://janin-w-team-5-project-app-qz6tf1.streamlitapp.com/
 
 ## Team members
- Xinyu Chen   Yanan Wen
+ Xinyu Chen  &  Yanan Wen
 
 ## Project fuction
 - relation-ship between stroke rate and factors,which includes:
