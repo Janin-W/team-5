@@ -10,7 +10,7 @@ Study on multiple factors affecting stroke rate
 
 ## Project
  This is the website for our final project
- https://janin-w-team-5-project-app-qz6tf1.streamlitapp.com/
+ https://janin-w-team-5-project-app-lezyue.streamlit.app/
 
 ## Team members
  Xinyu Chen  &  Yanan Wen
